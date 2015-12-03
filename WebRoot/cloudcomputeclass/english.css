@@ -1,0 +1,503 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	font-family: "HELVETICA", "serif";
+	font-size: 13px;
+	color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #add3f7;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+a:link {
+	color: #004276;
+	text-decoration: none
+}
+
+a:visited {
+	color: #004276;
+	text-decoration: none
+}
+
+a:active {
+	color: #004276;
+	text-decoration: none
+}
+
+a:hover {
+	color: #bf5e00;
+	TEXT-DECORATION: none;
+	position: static;
+	right: 0px;
+	top: 0px
+}
+
+#divmininav {
+	color:#004276;
+	background: #f4f4f4;
+	height: 25px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#divmininav_head {
+	padding: 0px 0px 0px 0px;
+	margin: 0px auto;
+	width: 900px;
+	_width:950px;
+	clear: both;
+}
+
+#divmininav_left {
+	line-height: 24px;
+	float: left;
+}
+
+#divmininav_right {
+	padding-right: 0px;
+	line-height: 24px;
+	float: right;
+}
+
+#divcontent {
+	margin: 0px auto;
+	width: 800px;
+	_width: 800px;
+	height: auto;
+	min-height: 800px;
+	clear: both;
+	border: 2px solid #cccccc;
+	border-top: 0px;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+#divcontent_top {
+	width: 100%;
+	margin-top: 0px;
+	clear: both;
+	height: 210px;
+	border-bottom: 0px solid #cccccc;
+}
+
+#divcontent_top_mid {
+	width: 800px;
+	padding-left: 60px;
+	padding-top: 45px;
+	float: left;
+	height: 160px;
+	display:inline;
+}
+
+#divcontent_top_right {
+	width: 180px;
+	padding-left: 10px;
+	padding-top: 15px;
+	float: right;
+
+}
+/*
+.scholarname {
+	color: #1d88bf;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.scholarorganization {
+	margin-top: 15px;
+	color: #1d88bf;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.scholartitle {
+	color: #1d88bf;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#divuserotherinfo {
+	margin-top: 15px;
+}
+
+#divuserotherinfo ul {
+	padding: 0px 0px 5px 0px;
+	margin: 5px 0px 0px 0px;
+	list-style: none;
+	line-height: 180%;
+}
+
+#divuserotherinfo ul li {
+	
+}
+
+#divcontent_top_left {
+	width: 160px;
+	float: left;
+	text-align: left;
+}
+
+#divuserimage {
+	padding-top: 15px;
+	padding-left: 20px;
+	text-align: left;
+}
+
+#divuserimage img {
+	width: 160px;
+	height: 160px;
+	background: #FAFAFA;
+	border: 2px solid #E4E4E4;
+	padding: 8px;
+}
+*/
+.timesroman {
+	font-family: "HELVETICA";
+}
+
+#divcontent_mid {
+	width: 100%;
+	margin-left: 30px;
+	margin-top: 0px;
+	padding-top: 0px;
+	height: auto;
+	_height: 500px;
+	min-height: 500px;
+}
+
+#divcontent_mid_left {
+	width: 800px;
+	padding-left: 0px;
+	padding-top: 11px;
+	padding-top: 10px\0;
+	float: left;
+}
+#divnavbar{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	border-bottom:1px solid #999;
+	height:22px;
+	margin-top:30px;
+}
+#divcontent_mid_right {
+	width: 250px;
+	float: left;
+}
+
+#divvisited {
+	width: 250px;
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+#divcontent_mid_right ul {
+	list-style: none;
+	line-height: 200%;
+	padding-left: 45px;
+}
+
+#divcontent_mid_right li {
+	width: 164px;
+	background: #f6fbff;
+	height: 25px;
+	text-align: center; margin-top : 10px;
+	color: #0000FF;
+	border: 1px solid #cae3ea;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#divintroduction {
+	margin-top: 5px;
+	margin-top: 1px\0;
+	line-height: 170%;
+	font-family: "HELVETICA", "serif";
+	margin-bottom: 10px;
+	margin-left:15px;
+}
+
+#diveducation {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-family: "HELVETICA", "serif";
+	overflow: hidden;
+}
+
+#diveducation  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+}
+
+#divworkExperience {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-family: "HELVETICA", "serif";
+	overflow: hidden;
+}
+
+#divworkExperience  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+}
+
+#divhonor {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-family: "HELVETICA", "serif";
+	overflow: hidden;
+}
+
+#divhonor  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+}
+
+#divpaper {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divpaper  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	padding-bottom: 1px \0;
+	font-family: "HELVETICA", "serif";
+}
+
+#divpaper  li {
+	margin-bottom: 5px;
+}
+
+#divpublication {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divpublication  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	font-family: "HELVETICA", "serif";
+}
+
+#divpublication  li {
+	margin-bottom: 5px;
+}
+
+#divproject {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divproject  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	font-family: "HELVETICA", "serif";
+}
+
+#divproject  li {
+	margin-bottom: 5px;
+}
+
+#divpatent {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divpatent  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	font-family: "HELVETICA", "serif";
+}
+
+#divpatent  li {
+	margin-bottom: 5px;
+}
+
+#divscholartitle {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divscholartitle  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	font-family: "HELVETICA", "serif";
+}
+
+#divscholartitle  li {
+	margin-bottom: 5px;
+}
+
+#divteaching {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divteaching  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	font-family: "HELVETICA", "serif";
+}
+
+#divteaching  li {
+	margin-bottom: 5px;
+}
+
+#divothers {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divothers  ul {
+	list-style: none;
+	line-height: 150%;
+	padding-left: 0px;
+	font-family: "HELVETICA", "serif";
+}
+
+#divothers  li {
+	margin-bottom: 5px;
+}
+
+#divcontacts {
+	margin-top: 5px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#divcontacts  ul {
+	list-style: none;
+	line-height: 150%;
+	font-family: "HELVETICA", "serif";
+}
+
+#divcontacts  li {
+	line-height:26px;
+	border-bottom:1px dotted #999;
+}
+
+#divfooter {
+	width: 100% height :     200px;
+}
+
+#divcopyright {
+	padding: 5px 0px 5px 0px;
+	margin: 0px auto;
+	width: 800px;
+	_width: 800px;
+	clear: both;
+	font-family: "HELVETICA", "serif";
+	text-align: center;
+	line-height: 200%;
+	background-color: #f4f5f5;
+	border: 2px solid #cccccc;
+	border-top: 0px;
+}
+
+#divcopyright img {
+	vertical-align: middle;
+}
+
+.attachment {
+	padding: 5px;
+	color: #ff6600;
+	font-weight: bold;
+}
+
+/*–ﬁ Œ±≥æ∞Õº∆¨¡–±Ì*/
+#divsetbgima {
+	display: none;
+	border: 1px solid #98ceea;
+	width: 400px;
+	float: left;
+	padding-top: 5px;
+}
+
+#divsetbgima ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#divsetbgima ul li {
+	float: left;
+	display: inline;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#divsetbgima ul img {
+	display: block;
+	margin: 0 auto;
+	border: 0;
+	border: 1px solid #98ceea;
+}
+
+#divitem {
+	clear: both;
+	width: 100%;
+	margin-bottom: 5px;
+	
+	font-family: "HELVETICA", "serif";
+}
+
+#divitemid {
+	width: 5%;
+	float: left;
+	padding-top: 4px;
+	text-align: left;
+	vertical-align: top;
+	height: 20px;
+	border: 0px solid #FF0000;
+	line-height: 25px;
+}
+
+#divitemcontent {
+	width: 94%;
+	float: left;
+	line-height: 25px;
+	padding-top: 0px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 4px;
+	border-bottom:1px dotted #999;
+}
+.card{
+	float:left;
+	padding-top:10px;
+	padding-left:5px;
+	background-color:none;
+}
+.card h1{
+	margin-top:25px;
+	margin-left:25px;
+}
+.card_content ul{
+	margin-left:26px;
+}
+.card scholartitle{
+	font-size:17px;
+}

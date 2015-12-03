@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	 <constant name="struts.multipart.maxSize" value="2000485760"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="default" namespace="/" extends="struts-default">
+       	<action name="" >
+       		<result >
+      		/home.jsp	
+       		</result>
+       	</action>
+        <action name="Video_list" class="com.action.VideoAction" method="list">
+            <result name="success">
+                /videoList.jsp
+            </result>
+        </action>
+       <action name="Admin_login" class="com.action.AdminAction" method="login">
+            <result name="success">
+                /result.jsp
+            </result>
+        </action>
+        
+    </package>
+    <package name="admin" namespace="/admin" extends="struts-default">
+    	<action name="Video_*" class="com.action.VideoAction" method="{1}">
+            <result name="success">
+                /videoList.jsp
+            </result>
+        </action>
+    
+    </package>
+
+   <!--  <include file="example.xml"/> -->
+
+</struts>
