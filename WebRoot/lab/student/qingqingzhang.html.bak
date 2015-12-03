@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>张晴晴</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body background="../image/backg.gif">
+
+
+<div id="content">
+
+  <h3>张晴晴 QingQing Zhang</h3>
+	<hr>  
+<img src="../image/qingqingzhang.jpg" width="120" height="160" style="margin: 20px 60px 0px 0px; float:right">   <ul>
+  <li>2013级 硕士研究生</li>
+    <li> 导师：孙伟峰</a></li>
+  <li> 实验室：教学楼A307 </a></li>
+    <li> E-mail:&nbsp;1165331393 AT qq.com</a></li> 
+  </ul>
+  
+    <h4>教育背景</h4>
+  <ul>
+     <li> 2013-2015  大连理工大学 软件学院 软件工程系 <br></li>
+    <li>  2009-2013 长春理工大学 软件学院 软件工程系 </li>
+
+  </ul>
+  
+<h4>研究兴趣</h4>   
+  <ul>
+    <li>无线网络</li>
+    <li>云计算</li>
+  </ul>
+
+<div id="siteInfo">
+地址: 中国·大连市经济技术开发区大连理工大学软件学院教学楼<br>
+&copy;2013 Allrights reserved
+大连理工大学C-WTO Lab实验室版权所有
+</div>
+
+
+</body>
+</html>
